@@ -1,0 +1,222 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	font: 1em Roboto;
+     
+}
+header{
+	width: 100%;
+	height: 100vh;
+	background: url(images/1.jpg);
+    background-color: black;
+    
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+nav{
+	width: 100%;
+	height: auto;
+	color: #fff;
+	z-index: 999;
+}
+.upper_navbar{
+	background-color: #112255; 
+}
+.menu1{
+	width: 90%;
+	margin: 0 auto;
+}
+.menu1 ul{
+	padding: 0;
+	margin: 0;
+	display: inline-flex;
+}
+.menu1 ul li{
+	list-style-type: none;
+	display: inline-block;
+	line-height: 40px;
+	padding: 0px 20px;
+}
+.menu1 ul li a{
+	color: #fff;
+	font-size: 10pt;
+	text-decoration: none;
+}
+.menu1 ul li:hover{
+	background-color: #0a9cc9;
+	transition: 0.3s;
+}
+.menu-icon{
+	display: none;
+}
+
+.lower_navbar{
+	width: 100%;
+	height: 70px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.7);
+}
+.lower_navbar_content{
+	width: 85%;
+	margin: 0 auto;
+}
+.lower_navbar .logo{
+	float: right;
+	font-size: 50px;
+  
+}
+}
+.lower_navbar .dropdown-menu{
+	width: 40%;
+}
+.lower_navbar .dropdown-menu , .lower_navbar .dropdown-menu ul{
+	position: absolute;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.lower_navbar .dropdown-menu li a, .lower_navbar .dropdown-menu ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.lower_navbar .dropdown-menu li{
+	display: inline-block;
+	padding: 25px 0;
+	transition: 0.3s;
+}
+.lower_navbar .dropdown-menu li:hover{
+	background: #444;
+}
+.lower_navbar .dropdown-menu li a{
+	padding: 20px;
+}
+.lower_navbar .dropdown-menu ul{
+	display: none;
+	margin-top: 25px;
+}
+.lower_navbar .dropdown-menu ul li{
+	padding: 15px 0px;
+	display: block;
+	background: #000;
+}
+.lower_navbar .dropdown-menu ul li:hover{
+	background: #333;
+}
+.lower_navbar .dropdown-menu li:hover ul{
+	display: block;
+}
+.fas{
+	padding-left: 8px;
+}
+
+.header-title{
+	position: absolute;
+	text-transform: uppercase;
+	text-align: center;
+	height: 300px;
+	font-family: Roboto;
+	color: white;
+	top: 45%;
+	left:20%;
+	transform: (30%, 40%)
+}
+#main-title{
+	font-family: Roboto;
+	font-weight: 100;
+	font-size: 60px;
+	text-shadow: 5px 5px 10px black;
+}
+#sub-title{
+	font-family: Nunito;
+	font-size: 25px;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	margin: 10px 0 20px 0;
+	text-shadow: 5px 5px 10px black;
+}
+#main-title span{
+	font-weight: 700;
+}
+.welcome{
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 75px;
+    color: whitesmoke;
+    text-align: center;
+    transform: translate(20%,200%)
+   
+    color: white;
+     background-color: rgba(0, 0, 0, 0.4);
+
+}
+.wand{
+    color:deepskyblue;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 55%;
+    left: 25%;
+    position: absolute;
+    transform: translate(230%,-30%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+}
+
+.loginbox h1{
+    margin: 0;
+    padding: 0px 0 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+     border-radius: 5px;
+}
+
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: deepskyblue;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: grey;
+    color: white;
+}
+
+.slogan{
+    font-size: 30px;
+    transform: translate(0%,-50%);
+     background-color: rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,38 @@
+body{
+	background-image: url("images/19.jpg");
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+.hlo{
+	font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    
+    background-color: brown;
+    background-color: rgba(0,0,0,0.5); 
+}
+
+.upper_navbar{
+	background-color: #112255;
+	background-color: rgba(0,0,0,0.5); 
+	height: 50px;
+}
+
+
+
+.upper_navbar .logo{
+	float: right;
+	font-size: 50px;
+}
+
+.h1{
+	color: white;
+}
+
+.demo{
+	color: #38D7B8;
+	font-size: 200%;
+}
